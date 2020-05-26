@@ -1,0 +1,15 @@
+/*max screen width 320px*/
+@media only screen and (max-width: 320px){
+  .adaptive-grid-items {
+    padding: 95px 0 115px;
+    display: grid;
+    grid-template-areas:
+      "a a a a b b b b b"
+      "c c c c c e e e e"
+      "d d d d d e e e e"
+      "f f f f f f f f f"
+      "g g g h h h h h h";
+    grid-gap: 20px;
+  }
+
+}
