@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font: 1em/1.67 'Open Sans', Arial, Sans-serif;
+  margin: 0;
+  color: #ffffff;
+}
+
+.container {
+  max-width: 1440px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0 auto;
+}
+
+
+.grid-item h2 {
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.adaptive-grid-items {
+  padding: 95px 0 115px;
+  display: grid;
+  grid-template-areas:
+    "a a b b b f f g g"
+    "c c c e e f f g g"
+    "d d d e e f f g g"
+    "d d d e e f f h h";
+    "d d d e e f f h h";
+    "d d d e e f f h h";
+  grid-gap: 20px;
+}
+
+.grid-item {
+  background-color: #7e6c91;
+  padding: 1em;
+  min-height: 125px;
+}
+
+.grid-item:nth-child(1) {
+  grid-area: a;
+  min-height: 175px;
+}
+.grid-item:nth-child(2) {
+  grid-area: b;
+}
+.grid-item:nth-child(3) {
+  grid-area: c;
+}
+.grid-item:nth-child(4) {
+  grid-area: d;
+}
+.grid-item:nth-child(5) {
+  grid-area: e;
+}
+.grid-item:nth-child(6) {
+  grid-area: f;
+}
+.grid-item:nth-child(7) {
+  grid-area: g;
+}
+.grid-item:nth-child(8) {
+  grid-area: h;
+  min-height: 100px;
+}
