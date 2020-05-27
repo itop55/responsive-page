@@ -1,7 +1,7 @@
 /*max screen width 575px*/
 @media only screen and (max-width: 575px){
   .adaptive-grid-items {
-    padding: 95px 0 115px;
+    padding: 40px 0;
     display: grid;
     grid-template-areas:
       "a a a a b b b b b"
